@@ -41,9 +41,23 @@ The visualization window will open automatically.
 
 ## 📁 Project Structure
 
+
 Music-Visualizer/
 │
 ├── music_visualizer.py
 ├── music.wav (your file)
 └── README.md
 
+
+---
+
+## 🎧 Supported Format
+- WAV (16-bit recommended)
+
+If your music is MP3, convert it to WAV before running.
+
+---
+
+## 📜 License
+Licensed under the MIT License.  
+Feel free to use and modify freely.
