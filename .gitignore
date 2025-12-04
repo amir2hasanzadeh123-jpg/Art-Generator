@@ -1,23 +1,23 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
 
-# Distribution / packaging
+# Build files
 build/
 dist/
 *.egg-info/
 
+# System files
+.DS_Store
+
 # VSCode
 .vscode/
 
-# macOS system files
-.DS_Store
-
-# Generated images
-art_output.png
-samples/*.png
+# Audio files
+*.wav
+*.mp3
+*.ogg
