@@ -1,33 +1,49 @@
-# 🎨 Art Generator
+# 🎶 Music Visualizer (Python)
 
-A simple Python-based generative art tool that creates colorful abstract compositions using random shapes, lines, and patterns.  
-Perfect for creative coding, learning algorithmic art, and producing unique visuals for inspiration.
+A simple and lightweight Python-based audio frequency visualizer.  
+This tool reads a WAV audio file, performs an FFT (Fast Fourier Transform),  
+and displays the sound frequency spectrum using Matplotlib.
+
+Perfect for learning digital signal processing (DSP), audio analysis,  
+or building creative coding audio projects.
+
+---
 
 ## 🚀 Features
-- Generates abstract art with circles, rectangles, and lines  
-- Randomized colors and geometric layouts  
-- Lightweight and beginner-friendly Python script  
-- Outputs high-resolution PNG images  
+- Visualizes frequency spectrum of audio files  
+- Automatically converts stereo to mono  
+- Fast FFT processing  
+- Clean and lightweight Python script  
+- Beginner-friendly and easy to modify  
+
+---
 
 ## 📦 Requirements
-pip install pillow
+Install dependencies with:
 
+pip install numpy matplotlib scipy
+
+
+---
 
 ## ▶️ How to Run
-python art_generator.py
 
-Your generated artwork will be saved as **art_output.png**.
+1. Place your audio file in the project directory  
+2. Rename it to **music.wav**  
+3. Run the script:
+
+python music_visualizer.py
+
+
+The visualization window will open automatically.
+
+---
 
 ## 📁 Project Structure
-Art-Generator/
+
+Music-Visualizer/
 │
-├── art_generator.py
-├── samples/
+├── music_visualizer.py
+├── music.wav (your file)
 └── README.md
 
-## 🖼 Sample Output
-Add your generated images inside the `samples/` folder.
-
-## 📜 License
-This project is available under the MIT License.  
-Feel free to use, modify, and share.
